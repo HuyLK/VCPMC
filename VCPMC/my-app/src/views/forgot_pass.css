@@ -1,0 +1,74 @@
+.button {
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 50px;
+    background: #FF7506;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 30px;
+  
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-left: 550px;
+    border-radius: 100%;
+}
+
+
+.a-bot {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 20px;
+    color: #FF7506;
+    text-decoration-line: underline;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: 600px;
+}
+.login-container {
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: white;
+    width: 400px;
+    margin-left: 550px;
+}
+
+.input-email {
+    border: 1px solid #2B2B3F;
+    background-color: #2B2B3F;
+    display: flex;
+    padding: 10px 0 10px 15px;
+    border-radius: 5px;
+    width: 470px;
+    margin: 10px 0 10px 0;
+    color: white;
+    transition: 0.25 ease;
+    outline: none;
+}
+
+.input-email:focus {
+    border-color: #347AFF;
+}
+
+p {
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 48px;
+    
+}
+
+label {
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 15px;
+    margin: 10px 0 10px 0;
+   
+}
